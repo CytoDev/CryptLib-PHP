@@ -4,7 +4,7 @@ cryptography. Currently the contents are limited to ```TwoWayAES``` encryption.
 
 ## License:
 This project is licensed under the MIT License. You can find a copy of the
-license [here](https://github.com/CytoDev/PHP-CryptLib/LICENSE.md).
+license [here](LICENSE.md).
 
 ## Contributions:
 You are more than welcome to submit issues as well as feature requests or just a
