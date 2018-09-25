@@ -30,3 +30,7 @@ vendor/
 
 atlassian-ide-plugin.xml
 modules.xml
+
+/generators/output/*
+
+!/**/.gitkeep
