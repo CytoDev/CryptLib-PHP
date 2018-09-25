@@ -7,6 +7,9 @@ Currently the contents are limited to `TwoWayAES` encryption.
 ## Generating:
 The `./generators` directory is used to store simple implementations of the cryptographic algorithms that input some user data and ouput the encoded data.
 
+## Changelog:
+The changelog for this project can be found [here](CHANGELOG.md).
+
 ## License:
 This project is licensed under the MIT License. You can find a copy of the
 license [here](LICENSE.md).
