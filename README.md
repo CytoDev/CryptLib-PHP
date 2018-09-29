@@ -1,4 +1,4 @@
-# CryptLib-PHP v1.0.1
+# CryptLib-PHP v1.1.0
 This project is intended as a library that implements anything regarding
 cryptography.
 
