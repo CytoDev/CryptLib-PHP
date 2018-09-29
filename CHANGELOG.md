@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased](https://github.com/CytoDev/FrequencyCalculator/compare/master...dev)
 
+## [1.1.0] - 2018-09-29
+### Changed
+ - `meta/Cipher` namespace to `autological/Cipher`
+
 ## [1.0.1] - 2018-09-25
 ### Added
  - TwoWayAES generator
@@ -19,6 +23,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## 1.0.0 - 2018-08-04
 ### Initial release
 
+[1.1.0]: https://github.com/CytoDev/CryptLib-PHP/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/CytoDev/CryptLib-PHP/compare/v1.0.0...v1.0.1
 
 <!-- Order of listing changes:
