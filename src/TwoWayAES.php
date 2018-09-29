@@ -7,7 +7,7 @@
     use io\cytodev\lib\cryptography\interfaces\ICryptographicPassword;
     use io\cytodev\lib\cryptography\interfaces\IMessageAuthenticationCode;
 
-    use io\cytodev\lib\cryptography\meta\Cipher;
+    use io\cytodev\lib\cryptography\autological\Cipher;
 
     /**
      * Class TwoWayAES
