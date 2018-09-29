@@ -1,13 +1,13 @@
 <?php
 
-    namespace io\cytodev\lib\cryptography\meta;
+    namespace io\cytodev\lib\cryptography\autological;
 
     use io\cytodev\lib\cryptography\exceptions\CryptographyException;
 
     /**
      * Class Cipher
      *
-     * @package io\cytodev\lib\cryptography\meta
+     * @package io\cytodev\lib\cryptography\autological
      */
     abstract class Cipher {
 
