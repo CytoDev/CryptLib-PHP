@@ -1,5 +1,7 @@
 <?php
 
+    namespace cytodev\lib\cryptography\tests;
+
     use cytodev\lib\cryptography\TwoWayAES;
 
     use cytodev\lib\cryptography\exceptions\CryptographyException;
