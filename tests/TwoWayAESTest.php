@@ -38,8 +38,8 @@
          * @throws InvalidArgumentException
          */
         public function testCanGetAvailableCiphers(): void {
-            $this->assertInternalType("array", TwoWayAES::getAvailableCiphers());
-            $this->assertInternalType("array", TwoWayAES::getAvailableAdvancedCiphers());
+            $this->assertIsArray(TwoWayAES::getAvailableCiphers());
+            $this->assertIsArray(TwoWayAES::getAvailableAdvancedCiphers());
         }
 
         /**
