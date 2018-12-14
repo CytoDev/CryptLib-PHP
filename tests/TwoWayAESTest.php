@@ -11,10 +11,15 @@
 
     use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
+    /**
+     * <h1>Class TwoWayAESTest</h1>
+     *
+     * @package cytodev\lib\cryptography\tests
+     */
     final class TwoWayAESTest extends TestCase {
 
         /**
-         * testCanInstantiate
+         * <h2>testCanInstantiate</h2>
          *   Tests whether the class can actually be instantiated
          *
          * @throws CryptographyException
@@ -26,7 +31,7 @@
         }
 
         /**
-         * testCanGetAvailableCiphers
+         * <h2>testCanGetAvailableCiphers</h2>
          *   Tests whether the ciphers can be gathered from the meta:Cipher
          *
          * @throws ExpectationFailedException
@@ -38,7 +43,7 @@
         }
 
         /**
-         * testCanSetAndGetCipher
+         * <h2>testCanSetAndGetCipher</h2>
          *   Tests whether ciphers method can be changed
          *
          * @throws CryptographyException
@@ -56,7 +61,7 @@
         }
 
         /**
-         * testCanGetCipherInitialisationVectorLength
+         * <h2>testCanGetCipherInitialisationVectorLength</h2>
          *   Tests whether cipher initialisation vector lengths can be retrieved
          *
          * @throws CryptographyException
@@ -74,7 +79,7 @@
         }
 
         /**
-         * testCanSetAndGetInitialisationVector
+         * <h2>testCanSetAndGetInitialisationVector</h2>
          *   Tests whether the initialisation vector can be set
          *
          * @throws CryptographyException
@@ -96,7 +101,7 @@
         }
 
         /**
-         * testCanEncrypt
+         * <h2>testCanEncrypt</h2>
          *   Tests whether the encryption works with nilled IV
          *
          * @throws ExpectationFailedException
@@ -120,7 +125,7 @@
         }
 
         /**
-         * testCanDecrypt
+         * <h2>testCanDecrypt</h2>
          *   Tests whether the decryption works with nilled IV
          *
          * @throws ExpectationFailedException
@@ -144,7 +149,7 @@
         }
 
         /**
-         * testCanFunctionallyUsePassword
+         * <h2>testCanFunctionallyUsePassword</h2>
          *   Tests whether the password can be set and is useful in the
          *   encryption process
          *
@@ -212,7 +217,7 @@
         }
 
         /**
-         * testIsAdvanced
+         * <h2>testIsAdvanced</h2>
          *   Tests whether advanced options can be used
          *
          * @throws ExpectationFailedException
@@ -223,7 +228,7 @@
         }
 
         /**
-         * testCanFunctionallyUseTag
+         * <h2>testCanFunctionallyUseTag</h2>
          *   Tests whether the tag can be used and is useful in the encryption
          *   process
          *
@@ -258,7 +263,7 @@
         }
 
         /**
-         * testCanFunctionallyUseMessageAuthenticationCode
+         * <h2>testCanFunctionallyUseMessageAuthenticationCode</h2>
          *   Tests whether the message authentication code can be used and is
          *   useful in the encryption process
          *
@@ -334,7 +339,7 @@
         }
 
         /**
-         * testCanFunctionallyUsePasswordAndTag
+         * <h2>testCanFunctionallyUsePasswordAndTag</h2>
          *   Tests whether the password can be used in combination with the tag
          *   and is useful in the encryption process
          *
@@ -407,7 +412,7 @@
         }
 
         /**
-         * testCanFunctionallyUsePasswordAndMessageAuthenticationCode
+         * <h2>testCanFunctionallyUsePasswordAndMessageAuthenticationCode</h2>
          *   Tests whether the password can be used in combination with the
          *   message authentication code and is useful in the encryption process
          *
