@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased](https://github.com/CytoDev/FrequencyCalculator/compare/master...dev)
 
+## [1.2.0] - 2018-12-14
+### Changed
+ - Removed TLD from namespaces
+ - Updated docblock documentation
+ - Updated development dependencies
+
 ## [1.1.0] - 2018-09-29
 ### Changed
  - `meta/Cipher` namespace to `autological/Cipher`
