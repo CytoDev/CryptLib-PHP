@@ -6,14 +6,14 @@
     use \Throwable;
 
     /**
-     * Class CryptographyException
+     * <h1>Class CryptographyException</h1>
      *
-     * @package io\cytodev\lib\cryptography\exceptions
+     * @package cytodev\lib\cryptography\exceptions
      */
     class CryptographyException extends Exception {
 
         /**
-         * CryptographyException constructor
+         * <h2>CryptographyException constructor.</h2>
          *
          * @param string         $message  The exception message
          * @param int            $code     The exception code
@@ -25,7 +25,7 @@
         }
 
         /**
-         * Magic __toString
+         * <h2>Magic __toString</h2>
          *   Returns a very basic description for the raised exception
          *
          * @return string

@@ -3,14 +3,14 @@
     namespace cytodev\lib\cryptography\interfaces;
 
     /**
-     * Interface ICryptographicPassword
+     * <h1>Interface ICryptographicPassword</h1>
      *
-     * @package io\cytodev\lib\cryptography\interfaces
+     * @package cytodev\lib\cryptography\interfaces
      */
     interface ICryptographicPassword {
 
         /**
-         * setPassword
+         * <h2>setPassword</h2>
          *   Sets a password to be used in an encrypted message
          *
          * @param string $password Password to use

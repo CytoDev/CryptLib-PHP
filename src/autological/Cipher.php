@@ -5,35 +5,29 @@
     use cytodev\lib\cryptography\exceptions\CryptographyException;
 
     /**
-     * Class Cipher
+     * <h1>Class Cipher</h1>
      *
-     * @package io\cytodev\lib\cryptography\autological
+     * @package cytodev\lib\cryptography\autological
      */
     abstract class Cipher {
 
         /**
-         * $cipher
-         *
          * @var string
          */
         protected $cipher = null;
 
         /**
-         * $advanced
-         *
          * @var bool
          */
         protected $advanced = false;
 
         /**
-         * $iv
-         *
          * @var string
          */
         protected $iv = null;
 
         /**
-         * Cipher constructor.
+         * <h2>Cipher constructor.</h2>
          *
          * @param string $cipher Cipher method [defaults: null]
          * @param string $iv     Initialization vector [defaults: null]
@@ -66,7 +60,7 @@
         }
 
         /**
-         * getAvailableCiphers
+         * <h2>getAvailableCiphers</h2>
          *   Gets all available cipher methods
          *
          * @return array
@@ -76,7 +70,7 @@
         }
 
         /**
-         * getAvailableAdvancedCiphers
+         * <h2>getAvailableAdvancedCiphers</h2>
          *   Gets all available advanced cipher methods
          *
          * @return array
@@ -93,7 +87,7 @@
         }
 
         /**
-         * setCipher
+         * <h2>setCipher</h2>
          *   Sets the cipher method and destroys the $iv value
          *
          * @param string $cipher The cipher method
@@ -110,7 +104,7 @@
         }
 
         /**
-         * getCipher
+         * <h2>getCipher</h2>
          *   Gets the cipher method
          *
          * @return string
@@ -120,7 +114,7 @@
         }
 
         /**
-         * getCipherIVLength
+         * <h2>getCipherIVLength</h2>
          *   Gets the initialization vector length for the current cipher
          *
          * @return int
@@ -133,7 +127,7 @@
         }
 
         /**
-         * setIV
+         * <h2>setIV</h2>
          *   Sets the initialization vector
          *
          * @param string $iv Initialization vector
@@ -149,7 +143,7 @@
         }
 
         /**
-         * getIV
+         * <h2>getIV</h2>
          *   Gets the initialization vector
          *
          * @return string Initialization vector

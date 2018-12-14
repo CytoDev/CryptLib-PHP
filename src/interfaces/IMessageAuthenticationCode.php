@@ -3,14 +3,14 @@
     namespace cytodev\lib\cryptography\interfaces;
 
     /**
-     * Interface IMessageAuthenticationCode
+     * <h1>Interface IMessageAuthenticationCode</h1>
      *
-     * @package io\cytodev\lib\cryptography\interfaces
+     * @package cytodev\lib\cryptography\interfaces
      */
     interface IMessageAuthenticationCode {
 
         /**
-         * setMAC
+         * <h2>setMAC</h2>
          *   Sets the message authentication code used to encrypt the source
          *   message or decrypt the resulting encrypted message
          *
@@ -21,7 +21,7 @@
         public function setMAC(string $mac): void;
 
         /**
-         * setMAC
+         * <h2>setMAC</h2>
          *   gets the message authentication code used to encrypt the source
          *   message or decrypt the resulting encrypted message
          *
