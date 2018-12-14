@@ -1,37 +1,33 @@
 <?php
 
-    namespace io\cytodev\lib\cryptography;
+    namespace cytodev\lib\cryptography;
 
-    use io\cytodev\lib\cryptography\exceptions\CryptographyException;
+    use cytodev\lib\cryptography\exceptions\CryptographyException;
 
-    use io\cytodev\lib\cryptography\interfaces\ICryptographicPassword;
-    use io\cytodev\lib\cryptography\interfaces\IMessageAuthenticationCode;
+    use cytodev\lib\cryptography\interfaces\ICryptographicPassword;
+    use cytodev\lib\cryptography\interfaces\IMessageAuthenticationCode;
 
-    use io\cytodev\lib\cryptography\autological\Cipher;
+    use cytodev\lib\cryptography\autological\Cipher;
 
     /**
-     * Class TwoWayAES
+     * <h1>Class TwoWayAES</h1>
      *
-     * @package io\cytodev\lib\cryptography
+     * @package cytodev\lib\cryptography
      */
     class TwoWayAES extends Cipher implements ICryptographicPassword, IMessageAuthenticationCode {
 
         /**
-         * $password
-         *
          * @var string
          */
         private $password = "";
 
         /**
-         * $mac
-         *
          * @var string
          */
         private $mac = "";
 
         /**
-         * TwoWayAES constructor.
+         * <h2>TwoWayAES constructor.</h2>
          *
          * @param string $cipher Cipher method [defaults: null]
          * @param string $iv     Initialization vector [defaults: null]
@@ -67,7 +63,7 @@
         }
 
         /**
-         * encrypt
+         * <h2>encrypt</h2>
          *   Encrypts data
          *
          * @param string $data      The encrypted message to be decrypted
@@ -85,7 +81,7 @@
         }
 
         /**
-         * decrypt
+         * <h2>decrypt</h2>
          *   Decrypts data
          *
          * @param string $data The encrypted message to be encrypted

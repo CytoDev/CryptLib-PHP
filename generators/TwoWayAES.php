@@ -2,7 +2,7 @@
 
     require_once("../vendor/autoload.php");
 
-    use io\cytodev\lib\cryptography\TwoWayAES;
+    use cytodev\lib\cryptography\TwoWayAES;
 
     $directory = "output/" . substr(basename(__FILE__), 0, -4);
 

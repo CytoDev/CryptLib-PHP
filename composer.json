@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "io\\cytodev\\lib\\cryptography\\": "src/"
+            "cytodev\\": "src/"
         }
     },
     "require-dev": {
