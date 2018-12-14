@@ -1,5 +1,5 @@
 {
-    "name": "cytodev/cryptlib",
+    "name": "cytodev/lib-cryptography",
     "description": "library that implements anything regarding cryptography.",
     "keywords": [
         "library",
