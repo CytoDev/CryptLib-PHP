@@ -1,13 +1,13 @@
 <?php
 
-    namespace io\cytodev\lib\cryptography;
+    namespace cytodev\lib\cryptography;
 
-    use io\cytodev\lib\cryptography\exceptions\CryptographyException;
+    use cytodev\lib\cryptography\exceptions\CryptographyException;
 
-    use io\cytodev\lib\cryptography\interfaces\ICryptographicPassword;
-    use io\cytodev\lib\cryptography\interfaces\IMessageAuthenticationCode;
+    use cytodev\lib\cryptography\interfaces\ICryptographicPassword;
+    use cytodev\lib\cryptography\interfaces\IMessageAuthenticationCode;
 
-    use io\cytodev\lib\cryptography\autological\Cipher;
+    use cytodev\lib\cryptography\autological\Cipher;
 
     /**
      * Class TwoWayAES

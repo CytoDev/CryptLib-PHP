@@ -1,6 +1,6 @@
 <?php
 
-    namespace io\cytodev\lib\cryptography\interfaces;
+    namespace cytodev\lib\cryptography\interfaces;
 
     /**
      * Interface ICryptographicPassword

@@ -1,6 +1,6 @@
 <?php
 
-    namespace io\cytodev\lib\cryptography\exceptions;
+    namespace cytodev\lib\cryptography\exceptions;
 
     use \Exception;
     use \Throwable;

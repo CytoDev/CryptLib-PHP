@@ -1,8 +1,8 @@
 <?php
 
-    use io\cytodev\lib\cryptography\TwoWayAES;
+    use cytodev\lib\cryptography\TwoWayAES;
 
-    use io\cytodev\lib\cryptography\exceptions\CryptographyException;
+    use cytodev\lib\cryptography\exceptions\CryptographyException;
 
     use PHPUnit\Framework\TestCase;
     use PHPUnit\Framework\ExpectationFailedException;

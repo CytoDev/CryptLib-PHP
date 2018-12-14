@@ -1,8 +1,8 @@
 <?php
 
-    namespace io\cytodev\lib\cryptography\autological;
+    namespace cytodev\lib\cryptography\autological;
 
-    use io\cytodev\lib\cryptography\exceptions\CryptographyException;
+    use cytodev\lib\cryptography\exceptions\CryptographyException;
 
     /**
      * Class Cipher
